@@ -1,0 +1,19 @@
+@import url('../fonts/DINPro.css');
+
+body {
+    font-family: 'DINPro Regular';
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    font-family: 'DINPro Bold';
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:white;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+}
