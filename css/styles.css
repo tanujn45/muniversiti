@@ -1,4 +1,5 @@
 @import url('../fonts/DINPro.css');
+@import url('hover-min.css');
 
 body {
     font-family: 'DINPro Regular';
