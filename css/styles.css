@@ -116,9 +116,14 @@ h3 {
 
 /* Hero */
 #hero {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: bottom;
+    background: linear-gradient(rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 0.2)), url('../img/bg1.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .inner-left-bottom {
