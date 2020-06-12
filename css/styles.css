@@ -135,7 +135,7 @@ h1 {
 
 @media screen and (max-width: 960px) {
     .section h1 {
-        font: 69px/65px DINPro-Bold, Arial, Verdana, sans-serif;
+        font: 69px/65px DINPro Bold, sans-serif;
         font-weight: 400;
         font-style: normal;
         letter-spacing: -2px
@@ -161,8 +161,8 @@ h1 {
     height: 100vh;
     display: flex;
     align-items: bottom;
-    background: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)), url('../img/bg1.jpg') center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0)), url('../img/bg1.jpg') center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -172,7 +172,7 @@ h1 {
     height: 100vh;
     display: flex;
     align-items: bottom;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ws2.jpg') center / cover no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ws2.jpg') center / cover no-repeat;
 }
 
 #ws-content {
