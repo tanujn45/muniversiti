@@ -81,17 +81,6 @@ h1 {
     margin: auto auto 10px;
 }
 
-.inner-center {
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    width: 90%;
-    max-width: 960px;
-    text-align: center
-}
-
 .navbar {
     background-color: rgba(0, 0, 0, 0);
     font-family: 'DINPro Bold';
@@ -142,6 +131,17 @@ h1 {
     }
 }
 
+.inner-center {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    width: 90%;
+    max-width: 960px;
+    text-align: center
+}
+
 .inner-left-middle,
 .inner-right-middle {
     -webkit-transform: translate(0, -50%);
@@ -156,15 +156,39 @@ h1 {
     left: 50px;
 }
 
+.vertical-center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.inner-right-bottom {
+    text-align: left;
+    width: 50%;
+    position: absolute;
+    bottom: 15%;
+    right: 50px;
+}
+
 /* Hero */
 #hero {
     height: 100vh;
     display: flex;
     align-items: bottom;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0)), url('../img/bg1.jpg') center;
-    background-repeat: no-repeat;
-    background-size: cover;
+            rgba(0, 0, 0, 0)), url('../img/bg2.jpg') center / cover no-repeat;
+}
+
+/* Index2 */
+.index2 {
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0)), url('../img/index2.jpg') center / cover no-repeat;
 }
 
 /* World Summit */
