@@ -51,6 +51,10 @@ p {
     line-height: 1.6;
 }
 
+hr {
+    border: 1px solid white;
+}
+
 h1 {
     position: relative;
     font: 100px/85px 'DINPro Bold', sans-serif;
@@ -63,7 +67,7 @@ h1 {
 
 .section h1 {
     font-family: 'DINPro Bold';
-    font-size: 48px;
+    font-size: 46px;
     line-height: 48px;
     font-weight: 400;
     font-style: normal;
@@ -189,7 +193,7 @@ h1 {
     display: flex;
     align-items: bottom;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0)), url('../img/bg2.jpg') center / cover no-repeat;
+            rgba(0, 0, 0, 0)), url('../img/index3.jpeg') center / cover no-repeat;
 }
 
 /* Index2 */
