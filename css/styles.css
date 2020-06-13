@@ -193,7 +193,7 @@ h1 {
     display: flex;
     align-items: bottom;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0)), url('../img/index3.jpeg') center / cover no-repeat;
+            rgba(0, 0, 0, 0)), url('../img/bg3.jpg') center / cover no-repeat;
 }
 
 /* Index2 */
