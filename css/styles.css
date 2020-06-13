@@ -101,6 +101,10 @@ h1 {
     padding: 0;
 }
 
+.navbar-brand { 
+    color: #FC8804 !important;
+}
+
 .btn {
     position: relative;
     min-width: 130px;
