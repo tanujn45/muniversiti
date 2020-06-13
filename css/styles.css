@@ -192,6 +192,7 @@ h1 {
     height: 100vh;
     display: flex;
     align-items: bottom;
+
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0)), url('../img/bg3.jpg') center / cover no-repeat;
 }
