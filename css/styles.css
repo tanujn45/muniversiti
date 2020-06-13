@@ -201,6 +201,11 @@ h1 {
             rgba(0, 0, 0, 0)), url('../img/index2.jpg') center / cover no-repeat;
 }
 
+/* Vision Mission */
+#vmion {
+    padding: 80px;
+}
+
 /* World Summit */
 #ws {
     height: 100vh;
