@@ -226,7 +226,19 @@ h1 {
 #about {
     height: 100vh;
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/team1.jpg') center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../img/team2.jpg') center / cover no-repeat;
+}
+
+/* Numbers */
+#numbers {
+    padding: 80px 0;
+}
+#numbers .number {
+    display: block;
+    font: 140px/140px 'DINPro Light',Arial,Verdana,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
 }
 
 /* Footer */
