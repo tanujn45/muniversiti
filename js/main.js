@@ -14,3 +14,9 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 
 }
+
+AOS.init({
+    delay: 250,
+    duration: 800,
+    once: true,
+});
