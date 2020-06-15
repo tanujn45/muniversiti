@@ -218,6 +218,32 @@ h1 {
     padding: 100px 0;
 }
 
+#ws-products {
+    padding: 40px 0;
+}
+
+#ws-products h2 {
+    font: 14px/12px 'DINPro Light', Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #8b939b;
+}
+
+#ws-products h3 {
+    font: 22px/20px 'DINPro Bold', Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+#ws-products a {
+    font: 16px/14px 'DINPro Medium', Arial, Verdana, sans-serif;
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+#ws-products a:hover {
+    color: #8b939b;
+}
+
 /* About */
 #about {
     height: 100vh;
