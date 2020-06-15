@@ -77,7 +77,8 @@ h1 {
     margin-bottom: 15px;
 }
 
-.section h3, .big h3 {
+.section h3,
+.big h3 {
     font: 18px/32px 'DINPro Medium', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -205,11 +206,6 @@ h1 {
             rgba(0, 0, 0, 0)), url('../img/index2.jpg') center / cover no-repeat;
 }
 
-/* Vision Mission */
-#vmion {
-    padding: 80px;
-}
-
 /* World Summit */
 #ws {
     height: 100vh;
@@ -243,12 +239,45 @@ h1 {
 #numbers {
     padding: 80px 0;
 }
+
 #numbers .number {
     display: block;
-    font: 140px/140px 'DINPro Light',Arial,Verdana,sans-serif;
+    font: 140px/140px 'DINPro Light', Arial, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 0;
+}
+
+/* Vision Mission */
+#vmion {
+    padding: 80px;
+}
+
+/* Team */
+#team {
+    padding: 40px 0;
+}
+
+#team h2 {
+    font: 14px/12px 'DINPro Light', Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #8b939b;
+}
+
+#team h3 {
+    font: 22px/20px 'DINPro Bold', Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+#team a {
+    font: 16px/14px 'DINPro Medium', Arial, Verdana, sans-serif;
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+#team a:hover {
+    color: #8b939b;
 }
 
 /* Footer */
