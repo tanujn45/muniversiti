@@ -96,6 +96,13 @@ h1 {
     margin: auto auto 20px;
 }
 
+@media screen and (max-width: 400px) {
+    .big h1 {
+        font-size: 40px;
+        line-height: 1em;
+    }
+}
+
 #navbar {
     top: 0;
     background: rgba(0, 0, 0, 0);
@@ -152,7 +159,20 @@ h1 {
         font: 69px/65px DINPro Bold, sans-serif;
         font-weight: 400;
         font-style: normal;
-        letter-spacing: -2px
+        letter-spacing: -2px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section h1 {
+        font: 47px/38px DINPro Bold, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -2px;
+    }
+
+    .inner-left-bottom {
+        left: 30px !important;
     }
 }
 
@@ -197,6 +217,12 @@ h1 {
             rgba(0, 0, 0, 0)), url('../img/bg3.jpg') center / cover no-repeat;
 }
 
+@media screen and (max-width: 400px) {
+    #hero {
+        background-position: 80% 0%;
+    }
+}
+
 /* Index2 */
 .index2 {
     text-align: center;
@@ -204,6 +230,12 @@ h1 {
     height: 100vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0)), url('../img/index2.jpg') center / cover no-repeat;
+}
+
+@media screen and (max-width: 400px) {
+    .index2 {
+        background-position: 65% 0%;
+    }
 }
 
 /* World Summit */
