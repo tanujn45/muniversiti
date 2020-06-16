@@ -236,7 +236,7 @@ h1 {
     align-items: bottom;
 
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0)), url('../img/bg3.jpg') center / cover no-repeat;
+            rgba(0, 0, 0, 0)), url('../img/bg.jpg') center / cover no-repeat;
 }
 
 @media screen and (max-width: 400px) {
@@ -265,7 +265,7 @@ h1 {
     height: 100vh;
     display: flex;
     align-items: bottom;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ws2.jpg') center / cover no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ws.jpg') center / cover no-repeat;
 }
 
 #ws-content {
@@ -302,7 +302,7 @@ h1 {
 #about {
     height: 100vh;
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../img/team2.jpg') center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../img/team.jpg') center / cover no-repeat;
 }
 
 /* About text */
