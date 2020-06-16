@@ -86,6 +86,15 @@ h1 {
     margin: auto auto 10px;
 }
 
+@media screen and (max-width: 960px) {
+    .section h1 {
+        font: 45px/40px 'DINPro Bold', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -2px;
+    }
+}
+
 .big h1 {
     position: relative;
     font: 100px/85px 'DINPro Bold', sans-serif;
@@ -93,12 +102,26 @@ h1 {
     font-style: normal;
     text-transform: uppercase;
     color: #fff;
-    margin: auto auto 20px;
+    margin: 0 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .big h1 {
+        font-size: 60px;
+        line-height: 1em;
+    }
 }
 
 @media screen and (max-width: 400px) {
+    .section h1 {
+        font: 38px/36px 'DINPro Bold', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -2px;
+    }
+
     .big h1 {
-        font-size: 40px;
+        font-size: 60px;
         line-height: 1em;
     }
 }
@@ -154,23 +177,9 @@ h1 {
     color: black;
 }
 
-@media screen and (max-width: 960px) {
-    .section h1 {
-        font: 69px/65px DINPro Bold, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        letter-spacing: -2px;
-    }
-}
+
 
 @media screen and (max-width: 400px) {
-    .section h1 {
-        font: 47px/38px DINPro Bold, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        letter-spacing: -2px;
-    }
-
     .inner-left-bottom {
         left: 30px !important;
     }
@@ -285,30 +294,52 @@ h1 {
 
 /* About text */
 #about-text {
-    padding: 80px 0;
-}
-
-#about-text p {
-    font-size: 24px;
-    font-family: 'DINPro Medium';
+    padding: 40px 0;
 }
 
 /* Numbers */
 #numbers {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 #numbers .number {
     display: block;
-    font: 140px/140px 'DINPro Light', Arial, Verdana, sans-serif;
+    font: 140px/140px 'DINPro Light', sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 0;
+    line-height: 1.5em;
 }
 
 /* Vision Mission */
 #vmion {
-    padding: 80px;
+    padding: 80px 0;
+}
+
+#about-text p {
+    font: 20px/20px 'DINPro Medium', sans-serif;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 400px) {
+    #numbers {
+        padding: 10px 0;
+    }
+
+    #about-text p {
+        font: 16px/28px 'DINPro Regular', sans-serif;
+        line-height: 30px;
+    }
+
+    #numbers .number {
+        font-size: 40px;
+        line-height: 1.5em;
+    }
+
+    #numbers h3 {
+        font-size: 12px;
+        line-height: 1em;
+    }
 }
 
 /* Team */
