@@ -239,7 +239,7 @@ h1 {
             rgba(0, 0, 0, 0)), url('../img/bg.jpg') center / cover no-repeat;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #hero {
         background-position: 80% 0%;
     }
@@ -254,7 +254,7 @@ h1 {
             rgba(0, 0, 0, 0)), url('../img/index2.jpg') center / cover no-repeat;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .index2 {
         background-position: 65% 0%;
     }
