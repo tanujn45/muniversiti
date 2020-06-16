@@ -126,6 +126,7 @@ h1 {
     }
 }
 
+/* Navbar */
 #navbar {
     top: 0;
     background: rgba(0, 0, 0, 0);
@@ -148,6 +149,18 @@ h1 {
 
 .navbar-brand {
     color: #FC8804 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.custom-toggler.navbar-toggler:focus {
+    border-color: rgba(0, 0, 0, 0);
 }
 
 .btn {
@@ -320,6 +333,31 @@ h1 {
     font: 20px/20px 'DINPro Medium', sans-serif;
     line-height: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    #numbers .number {
+        font-size: 100px;
+        line-height: 1.5em;
+    }
+
+    #numbers h3 {
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #numbers .number {
+        font-size: 70px;
+        line-height: 1.5em;
+    }
+
+    #numbers h3 {
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+}
+
 
 @media screen and (max-width: 400px) {
     #numbers {
