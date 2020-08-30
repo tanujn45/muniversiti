@@ -1,460 +1,492 @@
-@import url('../fonts/DINPro.css');
-@import url('hover.css');
+@import url("../fonts/DINPro.css");
+@import url("hover.css");
 
 body {
-    font-family: 'DINPro Regular';
-    background-color: black;
-    color: white;
+  font-family: "DINPro Regular";
+  background-color: black;
+  color: white;
 }
 
 a:focus {
-    outline: dotted thin
+  outline: dotted thin;
 }
 
 a:active,
 a:hover {
-    outline: 0
+  outline: 0;
 }
 
 h1 {
-    font-size: 2em;
-    margin: .67em 0
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin: .83em 0
+  font-size: 1.5em;
+  margin: 0.83em 0;
 }
 
 h3 {
-    font-size: 1.17em
+  font-size: 1.17em;
 }
 
 h4 {
-    font-size: 1em;
-    margin: 1.33em 0
+  font-size: 1em;
+  margin: 1.33em 0;
 }
 
 h5 {
-    font-size: .83em;
-    margin: 1.67em 0
+  font-size: 0.83em;
+  margin: 1.67em 0;
 }
 
 h6 {
-    font-size: .67em;
-    margin: 2.33em 0
+  font-size: 0.67em;
+  margin: 2.33em 0;
 }
 
 p {
-    margin: 15px 0;
-    font-family: 'DINPro Regular';
-    line-height: 1.6;
+  margin: 15px 0;
+  font-family: "DINPro Regular";
+  line-height: 1.6;
 }
 
 hr {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 h1 {
-    position: relative;
-    font: 100px/85px 'DINPro Bold', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    color: #fff;
-    margin: auto
+  position: relative;
+  font: 100px/85px "DINPro Bold", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
 }
 
 .section h1 {
-    font-family: 'DINPro Bold';
-    font-size: 46px;
-    line-height: 48px;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    color: #fff;
-    margin: auto;
-    margin-bottom: 15px;
+  font-family: "DINPro Bold";
+  font-size: 46px;
+  line-height: 48px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
 .section h3,
 .big h3 {
-    font: 18px/32px 'DINPro Medium', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    margin: auto auto 10px;
+  font: 18px/32px "DINPro Medium", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: auto auto 10px;
 }
 
 @media screen and (max-width: 960px) {
-    .section h1 {
-        font: 45px/40px 'DINPro Bold', sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        letter-spacing: -2px;
-    }
+  .section h1 {
+    font: 45px/40px "DINPro Bold", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -2px;
+  }
 }
 
 .big h1 {
-    position: relative;
-    font: 100px/85px 'DINPro Bold', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    color: #fff;
-    margin: 0 0 20px;
+  position: relative;
+  font: 100px/85px "DINPro Bold", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 20px;
 }
 
 @media screen and (max-width: 800px) {
-    .big h1 {
-        font-size: 60px;
-        line-height: 1em;
-    }
+  .big h1 {
+    font-size: 60px;
+    line-height: 1em;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .section h1 {
-        font: 38px/36px 'DINPro Bold', sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        letter-spacing: -2px;
-    }
+  .section h1 {
+    font: 38px/36px "DINPro Bold", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -2px;
+  }
 
-    .big h1 {
-        font-size: 50px;
-        line-height: 1em;
-    }
+  .big h1 {
+    font-size: 50px;
+    line-height: 1em;
+  }
 }
 
 /* Navbar */
 #navbar {
-    top: 0;
-    background: rgba(0, 0, 0, 0);
-    transition: top 0.3s, background 0.3s;
+  top: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: top 0.3s, background 0.3s;
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0);
-    font-family: 'DINPro Bold';
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: white;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "DINPro Bold";
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
 }
 
 .navbar .nav-item .nav-link {
-    color: white;
-    padding: 0;
+  color: white;
+  padding: 0;
 }
 
 .navbar-brand {
-    color: #FC8804 !important;
+  color: #fc8804 !important;
 }
 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
 }
 
 .custom-toggler.navbar-toggler:focus {
-    border-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
 }
 
 .btn {
-    position: relative;
-    min-width: 130px;
-    padding: 0 15px;
-    margin: 30px 0 0;
-    border: 2px solid #fff
+  position: relative;
+  min-width: 130px;
+  padding: 0 15px;
+  margin: 30px 0 0;
+  border: 2px solid #fff;
 }
 
 .button {
-    font-family: 'DINPro Bold';
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid white;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-top: 30px;
+  font-family: "DINPro Bold";
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 30px;
 }
 
 .button:hover {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-
-
 @media screen and (max-width: 400px) {
-    .inner-left-bottom {
-        left: 30px !important;
-    }
+  .inner-left-bottom {
+    left: 30px !important;
+  }
 }
 
 .inner-left-bottom {
-    position: absolute;
-    bottom: 15%;
-    left: 50px;
+  position: absolute;
+  bottom: 15%;
+  left: 50px;
 }
 
 .vertical-center-full {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .vertical-center {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .inner-right-bottom {
-    text-align: left;
-    width: 50%;
-    position: absolute;
-    bottom: 15%;
-    right: 50px;
+  text-align: left;
+  width: 50%;
+  position: absolute;
+  bottom: 15%;
+  right: 50px;
 }
 
 /* Hero */
 #hero {
-    height: 100vh;
-    display: flex;
-    align-items: bottom;
+  height: 100vh;
+  display: flex;
+  align-items: bottom;
 
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0)), url('../img/bg.jpg') center / cover no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+    url("../img/bg.jpg") center / cover no-repeat;
 }
 
 @media screen and (max-width: 500px) {
-    #hero {
-        background-position: 80% 0%;
-    }
+  #hero {
+    background-position: 80% 0%;
+  }
 }
 
 /* Index2 */
 .index2 {
-    text-align: center;
-    margin: auto;
-    height: 100vh;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0)), url('../img/index2.jpg') center / cover no-repeat;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url("../img/index2.jpg") center / cover no-repeat;
 }
 
 @media screen and (max-width: 500px) {
-    .index2 {
-        background-position: 65% 0%;
-    }
+  .index2 {
+    background-position: 65% 0%;
+  }
 }
 
 /* World Summit */
 #ws {
-    height: 100vh;
-    display: flex;
-    align-items: bottom;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ws.jpg') center / cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: bottom;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/ws.jpg") center / cover no-repeat;
 }
 
 #ws-content {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 #ws-products {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 #ws-products h2 {
-    font: 14px/12px 'DINPro Light', Arial, Verdana, sans-serif;
-    text-transform: uppercase;
-    color: #8b939b;
+  font: 14px/12px "DINPro Light", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #8b939b;
 }
 
 #ws-products h3 {
-    font: 22px/20px 'DINPro Bold', Arial, Verdana, sans-serif;
-    text-transform: uppercase;
+  font: 22px/20px "DINPro Bold", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
 }
 
 #ws-products a {
-    font: 16px/14px 'DINPro Medium', Arial, Verdana, sans-serif;
-    color: white;
-    text-decoration: underline;
-    transition: color 0.3s;
+  font: 16px/14px "DINPro Medium", Arial, Verdana, sans-serif;
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;
 }
 
 #ws-products a:hover {
-    color: #8b939b;
+  color: #8b939b;
 }
 
 /* About */
 #about {
-    height: 100vh;
-    display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../img/team.jpg') center / cover no-repeat;
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    url("../img/team.jpg") center / cover no-repeat;
 }
 
 /* About text */
 #about-text {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 /* Numbers */
 #numbers {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 #numbers .number {
-    display: block;
-    font: 140px/140px 'DINPro Light', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    line-height: 1.5em;
+  display: block;
+  font: 140px/140px "DINPro Light", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  line-height: 1.5em;
 }
 
 /* Vision Mission */
 #vmion {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 #about-text p {
-    font: 20px/20px 'DINPro Medium', sans-serif;
-    line-height: 40px;
+  font: 20px/20px "DINPro Medium", sans-serif;
+  line-height: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    #numbers .number {
-        font-size: 100px;
-        line-height: 1.5em;
-    }
+  #numbers .number {
+    font-size: 100px;
+    line-height: 1.5em;
+  }
 
-    #numbers h3 {
-        font-size: 18px;
-        line-height: 1.2em;
-    }
+  #numbers h3 {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    #numbers .number {
-        font-size: 70px;
-        line-height: 1.5em;
-    }
+  #numbers .number {
+    font-size: 70px;
+    line-height: 1.5em;
+  }
 
-    #numbers h3 {
-        font-size: 18px;
-        line-height: 1.2em;
-    }
+  #numbers h3 {
+    font-size: 18px;
+    line-height: 1.2em;
+  }
 }
 
-
 @media screen and (max-width: 400px) {
-    #numbers {
-        padding: 10px 0;
-    }
+  #numbers {
+    padding: 10px 0;
+  }
 
-    #about-text p {
-        font: 16px/28px 'DINPro Regular', sans-serif;
-        line-height: 30px;
-    }
+  #about-text p {
+    font: 16px/28px "DINPro Regular", sans-serif;
+    line-height: 30px;
+  }
 
-    #numbers .number {
-        font-size: 40px;
-        line-height: 1.5em;
-    }
+  #numbers .number {
+    font-size: 40px;
+    line-height: 1.5em;
+  }
 
-    #numbers h3 {
-        font-size: 12px;
-        line-height: 1em;
-    }
+  #numbers h3 {
+    font-size: 12px;
+    line-height: 1em;
+  }
 }
 
 /* Team */
 #team {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 #team h2 {
-    font: 14px/12px 'DINPro Light', Arial, Verdana, sans-serif;
-    text-transform: uppercase;
-    color: #8b939b;
+  font: 14px/12px "DINPro Light", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #8b939b;
 }
 
 #team h3 {
-    font: 22px/20px 'DINPro Bold', Arial, Verdana, sans-serif;
-    text-transform: uppercase;
+  font: 22px/20px "DINPro Bold", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
 }
 
 #team a {
-    font: 16px/14px 'DINPro Medium', Arial, Verdana, sans-serif;
-    color: white;
-    text-decoration: underline;
-    transition: color 0.3s;
+  font: 16px/14px "DINPro Medium", Arial, Verdana, sans-serif;
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;
 }
 
 #team a:hover {
-    color: #8b939b;
+  color: #8b939b;
+}
+
+/* Blog */
+#blog {
+  height: 100vh;
+  display: flex;
+  background: black;
+}
+
+#all-blogs {
+  padding: 40px 0;
+}
+
+#all-blogs h2 {
+  font: 14px/12px "DINPro Light", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #8b939b;
+}
+
+#all-blogs h3 {
+  font: 22px/20px "DINPro Bold", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+#all-blogs a {
+  font: 16px/14px "DINPro Medium", Arial, Verdana, sans-serif;
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+#all-blogs a:hover {
+  color: #8b939b;
 }
 
 /* Footer */
 #footer {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    font: 12px/18px 'DINPro Bold', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #979797;
-    text-transform: uppercase;
-    padding: 20px 0
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  font: 12px/18px "DINPro Bold", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #979797;
+  text-transform: uppercase;
+  padding: 20px 0;
 }
 
 #footer span {
-    font-size: 12px;
-    margin: 0 20px
+  font-size: 12px;
+  margin: 0 20px;
 }
 
 #footer a {
-    font: 12px/24px 'DINPro Bold', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    transition: color .1s linear;
+  font: 12px/24px "DINPro Bold", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  transition: color 0.1s linear;
 }
 
 #footer a.social {
-    display: inline-block;
-    margin: 0 20px
+  display: inline-block;
+  margin: 0 20px;
 }
 
 #footer p a:hover {
-    color: #8b939b;
-    text-decoration: none;
+  color: #8b939b;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 960px) {
-    #footer span {
-        display: block;
-        margin-bottom: 5px;
-    }
+  #footer span {
+    display: block;
+    margin-bottom: 5px;
+  }
 
-    #footer a {
-        margin: 0 10px
-    }
+  #footer a {
+    margin: 0 10px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    #footer a.social {
-        margin: 0 5px
-    }
+  #footer a.social {
+    margin: 0 5px;
+  }
 }

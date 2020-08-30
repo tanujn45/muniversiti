@@ -8,25 +8,28 @@
     <div data-aos="fade-right" class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto mt-4 mb-4 ml-2">
             <li class="nav-item ml-4">
+                <a class="nav-link hvr-underline-from-left" href="about">About</a>
+            </li>
+            <li class="nav-item ml-4">
                 <a class="nav-link hvr-underline-from-left" href="ws">World Summits</a>
             </li>
             <li class="nav-item ml-4">
-                <a class="nav-link hvr-underline-from-left" href="yilp.php">YILP</a>
+                <a class="nav-link hvr-underline-from-left" href="yilp">YILP</a>
             </li>
             <li class="nav-item ml-4">
-                <a class="nav-link hvr-underline-from-left" href="yisp.php">YISP</a>
+                <a class="nav-link hvr-underline-from-left" href="yisp">YISP</a>
             </li>
             <li class="nav-item ml-4">
-                <a class="nav-link hvr-underline-from-left" href="yitp.php">YITP</a>
+                <a class="nav-link hvr-underline-from-left" href="yitp">YITP</a>
             </li>
             <li class="nav-item ml-4">
-                <a class="nav-link hvr-underline-from-left" href="yics.php">YICS</a>
+                <a class="nav-link hvr-underline-from-left" href="yics">YICS</a>
             </li>
             <li class="nav-item ml-4">
-                <a class="nav-link hvr-underline-from-left" href="muniversify.php">Muniversify</a>
+                <a class="nav-link hvr-underline-from-left" href="muniversify">Muniversify</a>
             </li>
             <li class="nav-item ml-4">
-                <a class="nav-link hvr-underline-from-left" href="about.php">About</a>
+                <a class="nav-link hvr-underline-from-left" href="blog">blog</a>
             </li>
         </ul>
     </div>
