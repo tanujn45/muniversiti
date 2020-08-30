@@ -15,8 +15,7 @@
     <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#000000">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/bootstrap-better-nav.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/styles.css">
@@ -28,9 +27,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand ml-4" href="index.html">Muniversiti
         </a>
-        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div data-aos="fade-right" class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -161,8 +158,7 @@
                         <img src="img/team/tejas-min.jpg" alt="Tejas" class="img-fluid">
                         <h2>Chief Executive officer</h2>
                         <h3>Tejas Kumar Jain</h3>
-                        <a href="https://www.instagram.com/tejasj_10/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/tejas-jain-72715b191/">Linkedin ></a>
+                        <a href="https://www.instagram.com/tejasj_10/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/tejas-jain-72715b191/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -170,8 +166,7 @@
                         <img src="img/team/madhur-min.jpg" alt="Madhur" class="img-fluid">
                         <h2>Chief Marketing Officer</h2>
                         <h3>Madhur Oza</h3>
-                        <a href="https://www.instagram.com/madhur_oza/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/madhur-oza-17722a142/">Linkedin ></a>
+                        <a href="https://www.instagram.com/madhur_oza/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/madhur-oza-17722a142/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -179,8 +174,7 @@
                         <img src="img/team/ayushi-min.jpg" alt="Ayushi" class="img-fluid">
                         <h2>Cheif Content Officer</h2>
                         <h3>Ayushi Mohadikar</h3>
-                        <a href="https://www.instagram.com/iuc.mdk/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/ayushi-mohadikar-363271128/">Linkedin ></a>
+                        <a href="https://www.instagram.com/iuc.mdk/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/ayushi-mohadikar-363271128/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -188,8 +182,7 @@
                         <img src="img/team/ashwin-min.jpg" alt="Ashwin" class="img-fluid">
                         <h2>Head of operations</h2>
                         <h3>Ashwin Sameul</h3>
-                        <a href="https://www.instagram.com/_ashwiinn/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/ashwin-samuel-731a45161/">Linkedin ></a>
+                        <a href="https://www.instagram.com/_ashwiinn/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/ashwin-samuel-731a45161/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -197,8 +190,7 @@
                         <img src="img/team/sarthak-min.jpg" alt="Sarthak" class="img-fluid">
                         <h2>Chief Communications Officer</h2>
                         <h3>Sarthak Singh Parihar</h3>
-                        <a href="https://www.instagram.com/sarthaksingh14/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/sarthak-singh-a3b722170/">Linkedin ></a>
+                        <a href="https://www.instagram.com/sarthaksingh14/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/sarthak-singh-a3b722170/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -206,8 +198,7 @@
                         <img src="img/team/tanushree-min.jpg" alt="Tanushree" class="img-fluid">
                         <h2>Head of Administration</h2>
                         <h3>Tanushree talreja</h3>
-                        <a href="https://www.instagram.com/tanushree_talreja/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/tanushree-talreja-5507b3136/">Linkedin ></a>
+                        <a href="https://www.instagram.com/tanushree_talreja/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/tanushree-talreja-5507b3136/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -215,8 +206,7 @@
                         <img src="img/team/tanuj-min.jpg" alt="Tanuj" class="img-fluid">
                         <h2>Chief Technical Officer</h2>
                         <h3>Tanuj Namdeo</h3>
-                        <a href="https://www.instagram.com/tanujn45/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/tanuj-namdeo-973333192/">Linkedin ></a>
+                        <a href="https://www.instagram.com/tanujn45/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/tanuj-namdeo-973333192/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -224,8 +214,7 @@
                         <img src="img/team/kartik-min.jpg" alt="Kartik" class="img-fluid">
                         <h2>Senior Advisor</h2>
                         <h3>Kartik Tiwari</h3>
-                        <a href="https://www.instagram.com/krtk.twry/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/krtk/">Linkedin ></a>
+                        <a href="https://www.instagram.com/krtk.twry/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/krtk/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -233,8 +222,7 @@
                         <img src="img/team/chinmay-min.jpg" alt="Chinmay" class="img-fluid">
                         <h2>Head of Design</h2>
                         <h3>Chinmay Bakshi</h3>
-                        <a href="https://www.instagram.com/chinmay.bakshi/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/chinmaybakshi/">Linkedin ></a>
+                        <a href="https://www.instagram.com/chinmay.bakshi/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/chinmaybakshi/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -242,8 +230,7 @@
                         <img src="img/team/nandita-min.jpg" alt="Nandita" class="img-fluid">
                         <h2>Intern</h2>
                         <h3>Nandita Minocha</h3>
-                        <a href="https://www.instagram.com/nanditaminocha/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/nandita-minocha-9b94b11aa/">Linkedin ></a>
+                        <a href="https://www.instagram.com/nanditaminocha/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/nandita-minocha-9b94b11aa/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -251,8 +238,7 @@
                         <img src="img/team/nidhi-min.jpg" alt="Nidhi" class="img-fluid">
                         <h2>Intern</h2>
                         <h3>Nidhi Kathiria</h3>
-                        <a href="https://www.instagram.com/nidhi_kathiria/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/nidhi-kathiria-414263172/">Linkedin ></a>
+                        <a href="https://www.instagram.com/nidhi_kathiria/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/nidhi-kathiria-414263172/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -260,8 +246,7 @@
                         <img src="img/team/anubhav-min.jpg" alt="Anubhav" class="img-fluid">
                         <h2>Intern</h2>
                         <h3>Anubhav Vyas</h3>
-                        <a href="https://www.instagram.com/anubhavvyas/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/anubhav-vyas-a517431a9/">Linkedin ></a>
+                        <a href="https://www.instagram.com/anubhavvyas/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/anubhav-vyas-a517431a9/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -269,8 +254,7 @@
                         <img src="img/team/lavanyaa-min.jpg" alt="Lavanyaa" class="img-fluid">
                         <h2>Intern</h2>
                         <h3>Lavanyaa Dar</h3>
-                        <a href="https://www.instagram.com/lavanyaa_bliss/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/lavanyaa-dar-4439001b0/">Linkedin ></a>
+                        <a href="https://www.instagram.com/lavanyaa_bliss/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/lavanyaa-dar-4439001b0/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -278,8 +262,7 @@
                         <img src="img/team/prateek-min.jpg" alt="Prateek" class="img-fluid">
                         <h2>Intern</h2>
                         <h3>Pratik Rupani</h3>
-                        <a href="https://www.instagram.com/prateekr9/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/pratik-rupani-0a2719194/">Linkedin ></a>
+                        <a href="https://www.instagram.com/prateekr9/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/pratik-rupani-0a2719194/">Linkedin ></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -287,8 +270,7 @@
                         <img src="img/team/sahil-min.jpg" alt="Sahil" class="img-fluid">
                         <h2>Intern</h2>
                         <h3>Sahil Raza</h3>
-                        <a href="https://www.instagram.com/iamsahilraza/">Instagram ></a><a class="ml-2"
-                            href="https://www.linkedin.com/in/sahil-raza-ba39681ab/">Linkedin ></a>
+                        <a href="https://www.instagram.com/iamsahilraza/">Instagram ></a><a class="ml-2" href="https://www.linkedin.com/in/sahil-raza-ba39681ab/">Linkedin ></a>
                     </div>
                 </div>
             </div>
@@ -310,12 +292,9 @@
     <!-- /Footer -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
