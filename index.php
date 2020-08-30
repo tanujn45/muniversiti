@@ -2,62 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#000000">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/bootstrap-better-nav.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Muniversiti</title>
+    <?php include "includes/header.php" ?>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand ml-4" href="index.html">Muniversiti
-        </a>
-        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div data-aos="fade-right" class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto mt-4 mb-4 ml-2">
-                <li class="nav-item ml-4">
-                    <a class="nav-link hvr-underline-from-left" href="ws.html">World Summits</a>
-                </li>
-                <li class="nav-item ml-4">
-                    <a class="nav-link hvr-underline-from-left" href="yilp.html">YILP</a>
-                </li>
-                <li class="nav-item ml-4">
-                    <a class="nav-link hvr-underline-from-left" href="yisp.html">YISP</a>
-                </li>
-                <li class="nav-item ml-4">
-                    <a class="nav-link hvr-underline-from-left" href="yitp.html">YITP</a>
-                </li>
-                <li class="nav-item ml-4">
-                    <a class="nav-link hvr-underline-from-left" href="yics.html">YICS</a>
-                </li>
-                <li class="nav-item ml-4">
-                    <a class="nav-link hvr-underline-from-left" href="muniversify.html">Muniversify</a>
-                </li>
-                <li class="nav-item ml-4">
-                    <a class="nav-link hvr-underline-from-left" href="about.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- /Navbar -->
-
+    <?php include "includes/navbar.php" ?>
     <!-- Hero -->
     <section id="hero">
         <div class="container">

@@ -8,32 +8,30 @@
 <body>
 	<?php include "includes/navbar.php" ?>
 
-	<!-- Yitp -->
-	<section id="yitp">
+	<!-- Muniver -->
+	<section id="muniver">
 		<div class="container">
 			<div data-aos="fade-up" data-aos-delay="800" class="text-center vertical-center-full big">
-				<h1>YOUNG INDIA TRAVEL PROGRAM</h1>
+				<h1>MUNIVERSIFY</h1>
 			</div>
 		</div>
 	</section>
-	<!-- /Yitp -->
+	<!-- /Muniver -->
 
-	<!-- Yitp-content -->
-	<section id="yitp-content">
+	<!-- Muniver-content -->
+	<section id="muniver-content">
 		<div class="container">
 			<div class="vertical-center text-center">
 				<div data-aos="fade-up" class="mx-2 section">
 					<h1>About the Program</h1>
-					<p>Young India Travel Program extends to offer the students a multitude of regional specialities
-						not just in terms of the work culture but also in terms of a gamut of opportunities. With
-						the travel program, a student would be able to delve into a world of experiential learning
-						which would be perfectly amalgamated with amusement. The YITP is designed in a way such that
-						students take memories along with learning so that they become expeditionary erudite.</p>
+					<p>We plan to form a cluster to facilitate the exchange of students and sharing of resources between
+						schools. We aim to form a body where schools can work in collaboration to realize the dream that
+						'The world is the new school.'</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- /Yitp-content -->
+	<!-- /Muniver-content -->
 
 	<!-- Footer -->
 	<footer id="footer">
@@ -43,7 +41,7 @@
 			<a href="https://www.linkedin.com/company/muniversiti/" class="social">Linkedin</a>
 			<a href="https://www.facebook.com/indoreworldsummit/" class="social">Facebook</a>
 			<a href="mailto: info@muniversiti.org" class="social">Email</a>
-			<a href="" class="social">(+91) 7987519367</a>
+			<a href="tel: +917987519367" class="social">(+91) 7987519367</a>
 		</p>
 	</footer>
 	<!-- /Footer -->
