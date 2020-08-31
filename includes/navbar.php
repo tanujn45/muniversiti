@@ -1,3 +1,10 @@
+<!-- Preloader -->
+<div class="preloader d-flex align-items-center justify-content-center">
+    <div class="logo-preloader">
+    </div>
+</div>
+<!-- /Preloader -->
+
 <!-- Navbar -->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
     <a class="navbar-brand ml-4" href="index.php">Muniversiti
