@@ -9,10 +9,18 @@
     <?php include "includes/navbar.php" ?>
     <section id="blog">
         <div class="container">
-            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="inner-left-bottom section">
-                <h3>02/12/24</h3>
-                <h1>Title of the blog</h1>
-                <a href="blogpost.php" class="button hvr-sweep-to-top">full article</a>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="section">
+                        <h3>02/12/24</h3>
+                        <h1>Title of the blog</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae unde quia ex molestias maiores, dolore velit ipsa veniam vero vitae recusandae assumenda itaque rem reiciendis! Quos neque, ea veniam, voluptas quasi perspiciatis, sapiente temporibus cumque id laboriosam excepturi ratione amet repudiandae iste illum aliquam dolor! Deleniti rem itaque soluta!...</p>
+                        <a href="blogpost.php" class="button hvr-sweep-to-top">full article</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/ws.jpg" alt="" class="img-fluid">
+                </div>
             </div>
         </div>
     </section>
@@ -22,7 +30,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4">
                     <div class="mx-1 mb-5" data-aos="fadeUp">
-                        <img src="img/team/tejas-min.jpg" alt="Tejas" class="img-fluid">
+                        <img src="img/ws.jpg" alt="Tejas" class="img-fluid">
                         <h2>02/12/24</h2>
                         <h3>Title of the blog</h3>
                         <a href="">View article ></a>
@@ -30,7 +38,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="mx-1 mb-5" data-aos="fadeUp">
-                        <img src="img/team/madhur-min.jpg" alt="Madhur" class="img-fluid">
+                        <img src="img/ws.jpg" alt="Madhur" class="img-fluid">
                         <h2>02/12/24</h2>
                         <h3>Title of the blog</h3>
                         <a href="">View article ></a>
@@ -38,7 +46,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="mx-1 mb-5" data-aos="fadeUp">
-                        <img src="img/team/ayushi-min.jpg" alt="Ayushi" class="img-fluid">
+                        <img src="img/ws.jpg" alt="Ayushi" class="img-fluid">
                         <h2>02/12/24</h2>
                         <h3>Title of the blog</h3>
                         <a href="">View article ></a>
@@ -47,9 +55,8 @@
             </div>
         </div>
     </section>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center mb-5">
         <a href="" class="button hvr-sweep-to-top">Load more</a>
-
     </div>
 
     <?php include "includes/footer.php" ?>

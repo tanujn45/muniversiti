@@ -55,6 +55,10 @@ hr {
   border: 1px solid white;
 }
 
+.table {
+  color: white;
+}
+
 h1 {
   position: relative;
   font: 100px/85px "DINPro Bold", sans-serif;
@@ -83,7 +87,7 @@ h1 {
   background-size: contain;
   display: inline-block;
   position: relative;
-  width: 70%;
+  width: 30%;
   height: 100%;
 }
 
@@ -430,13 +434,11 @@ h1 {
 
 /* Blog */
 #blog {
-  height: 100vh;
-  display: flex;
-  background: black;
+  padding: 100px 0 50px;
 }
 
 #all-blogs {
-  padding: 40px 0;
+  padding: 40px 0 20px;
 }
 
 #all-blogs h2 {
@@ -534,4 +536,23 @@ h1 {
   #footer a.social {
     margin: 0 5px;
   }
+}
+
+/* Login form */
+#form {
+  padding: 40px 0;
+}
+
+#form input,
+#form textarea {
+  background: black;
+  color: white;
+  border-radius: 0%;
+  border: 2px solid white;
+}
+
+#form input[type="file"] {
+  background-color: black;
+  border: none;
+  color: white;
 }

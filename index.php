@@ -14,6 +14,7 @@
                 <img src="img/logo.png" class="img-fluid ml-2" alt="" width="130px">
                 <h3>2 years of excellence in</h3>
                 <h1>Education Industry</h1>
+                <h3>World is the new school</h3>
                 <a href="about.html" class="button hvr-sweep-to-top">LEARN MORE</a>
             </div>
         </div>
