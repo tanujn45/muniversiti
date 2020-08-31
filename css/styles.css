@@ -556,3 +556,14 @@ h1 {
   border: none;
   color: white;
 }
+
+/* Admin */
+#admin {
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+#admin a {
+  color: white;
+}
