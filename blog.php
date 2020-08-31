@@ -12,7 +12,7 @@
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="inner-left-bottom section">
                 <h3>02/12/24</h3>
                 <h1>Title of the blog</h1>
-                <a href="about.html" class="button hvr-sweep-to-top">full article</a>
+                <a href="blogpost.php" class="button hvr-sweep-to-top">full article</a>
             </div>
         </div>
     </section>

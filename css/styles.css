@@ -439,6 +439,29 @@ h1 {
   color: #8b939b;
 }
 
+/* Blog post */
+#blogpost {
+  padding: 100px 0 40px;
+}
+
+#blogpost h2 {
+  font: 14px/12px "DINPro Light", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #8b939b;
+}
+
+#blogpost h3 {
+  font: 22px/20px "DINPro Bold", Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+#blogpost a {
+  font: 16px/14px "DINPro Medium", Arial, Verdana, sans-serif;
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
 /* Footer */
 #footer {
   position: relative;
