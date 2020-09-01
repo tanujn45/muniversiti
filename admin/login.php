@@ -1,21 +1,6 @@
 <?php
 session_start();
 $_SESSION["login"] = "false";
-include "../includes/conn.php";
-if (isset($_POST['submit'])) {
-    $user = $_POST['username'];
-    $pass = $_POST['password'];
-    $sql = "SELECT username, password FROM users WHERE username = '$user' and password = '$pass'";
-    $result = mysqli_query($conn, $sql);
-    if ($result == true) {
-        if (mysqli_num_rows($result) == 1) {
-            $_SESSION['login'] = true;
-            header("Location: admin");
-        } else {
-            echo "no entries";
-        }
-    }
-}
 ?>
 
 <!DOCTYPE html>
@@ -37,6 +22,23 @@ if (isset($_POST['submit'])) {
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8">
+                    <?php
+                    include "../includes/conn.php";
+                    if (isset($_POST['submit'])) {
+                        $user = $_POST['username'];
+                        $pass = $_POST['password'];
+                        $sql = "SELECT username, password FROM users WHERE username = '$user' and password = '$pass'";
+                        $result = mysqli_query($conn, $sql);
+                        if ($result == true) {
+                            if (mysqli_num_rows($result) == 1) {
+                                $_SESSION['login'] = true;
+                                header("Location: admin");
+                            } else {
+                                echo '<h2 style="color: red">Wrong credentials!</h2>';
+                            }
+                        }
+                    }
+                    ?>
                     <h2>Admin Login</h2>
                     <form action="login" method="post">
                         <div class="form-group">
