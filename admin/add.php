@@ -21,32 +21,43 @@ if ($_SESSION['login'] != "true") {
 </head>
 
 <body>
-    <?php
-    include "../includes/conn.php";
-    if (isset($_POST['submit'])) {
-        $date = $_POST['date'];
-        $title = $_POST['title'];
-        $body = $_POST['body'];
-        $img = $_FILES['img'];
-        if ($logo == "" || $name == "" || $about == "" || $img == "") {
-            echo '<h2 style="margin-bottom: -40px; color: red">Please fill the form!</h2>';
-        } else {
-            $sql = "insert into work(logo, name, about, img) value('$logo', '$name', '$about', '$img')";
-            if (mysqli_query($conn, $sql)) {
-                echo '<h2 style="margin-bottom: -40px; color: green">Entry inserted!</h2>';
-            } else {
-                echo '<h2 style="margin-bottom: -40px; color: red">Entry was not inserted!</h2>';
-            }
-        }
-    }
-    ?>
-
     <section id="form">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
+                    <?php
+                    include "../includes/conn.php";
+                    if (isset($_POST['submit'])) {
+                        $date = $_POST['date'];
+                        $title = $_POST['title'];
+                        $body = $_POST['body'];
+
+                        $root_path = "/opt/lampp/htdocs/muniversiti/";
+
+                        if ($date == "" || $title == "" || $body == "") {
+                            echo '<h2 style="color: red">Please fill the form!</h2>';
+                        } else {
+                            if (!empty($_FILES['img'])) {
+                                $image_name = time() . "_" . $_FILES['img']['name'];
+                                $destination = $root_path . "img/blog/" . $image_name;
+                                $result = move_uploaded_file($_FILES['img']['tmp_name'], $destination);
+                                if ($result) {
+                                    $sql = "INSERT INTO blog(date, title, body, img) VALUE('$date', '$title', '$body', '$image_name')";
+                                    if (mysqli_query($conn, $sql)) {
+                                        echo '<h3 style="color: green">Entry inserted!</h3>';
+                                    } else {
+                                        echo "inside";
+                                        echo '<h3 style="color: red">Entry was not inserted!</h3>';
+                                    }
+                                }
+                            } else {
+                                echo '<h3 style="color: red">Entry was not inserted!</h3>';
+                            }
+                        }
+                    }
+                    ?>
                     <h2>Enter details</h2>
-                    <form action="add.php" method="post" enctype="multipart/form-data">
+                    <form action="add" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <input class="form-control" type="date" name="date" placeholder="Date">
                         </div>
