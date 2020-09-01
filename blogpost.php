@@ -9,22 +9,47 @@
     <?php include "includes/navbar.php" ?>
 
     <section id="blogpost">
-        <div class="container-fluid">
-            <div class="row justify-contnent-center">
-                <div class="col-lg-6 vertical-center section">
-                    <div class="mx-1">
-                        <h2>23/45/34</h2>
-                        <h3>Title of the article</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam tempore vel similique rerum cumque officia error perspiciatis ex quasi, nobis accusamus adipisci debitis ducimus sint blanditiis repellendus eaque odit!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima culpa, quidem sequi id mollitia, commodi quasi omnis hic fugiat dicta maxime, sed vel dignissimos! Eaque ullam illo possimus tenetur perspiciatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis repudiandae maiores est beatae voluptatem exercitationem explicabo minus accusantium, ducimus, eius molestias nulla. Hic est ipsam, minima ut blanditiis sequi cum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dignissimos laborum illum, ipsam optio natus odit minima magni sit placeat incidunt veritatis aliquam ipsa quisquam, voluptates sed beatae ab quidem. Lorem ipsum dolor sit amet consectetur dolores dolore consequuntur blanditiis tempora sed amet eum modi suscipit dicta, eos culpa fugit rerum ipsam tempore, impedit pariatur alias.</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi magni doloremque aspernatur ipsum temporibus nostrum voluptatum fuga eveniet maxime fugiat ipsa, porro excepturi explicabo commodi nesciunt magnam? Enim, laboriosam itaque?</p>
+        <div class="container">
+            <?php
+            if (isset($_GET['post'])) {
+                $id = $_GET['post'];
+            } else {
+                header("Location: blog");
+            }
+            include "includes/conn.php";
+            $sql = "SELECT * FROM blog WHERE id = $id";
+            $result = mysqli_query($conn, $sql);
+
+            if (mysqli_num_rows($result) > 0) {
+                while ($row = mysqli_fetch_assoc($result)) {
+            ?>
+                    <div class="section">
+                        <div class="float-right pl-3">
+                            <img src="img/blog/<?php echo $row['img'] ?>" class="img-fluid img-rounded" alt="">
+                        </div>
+                        <div class=" p-3">
+                            <?php
+                            $date = $row['date'];
+                            $date = str_replace('-"', '/', $date);
+                            $date = date("d/m/Y", strtotime($date));
+                            ?>
+                            <h2><?php echo $date ?></h2>
+                            <h3><?php echo $row['title'] ?></h3>
+                            <?php
+                            $body = explode('~', $row["body"]);
+                            foreach ($body as $para) {
+                            ?>
+                                <p><?php echo $para ?></p>
+                            <?php
+                            }
+                            ?>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 vertical-center section">
-                    <img src="img/ws.jpg" class="img-fluid" alt="">
-                </div>
-            </div>
+
+            <?php
+                }
+            }
+            ?>
         </div>
     </section>
 

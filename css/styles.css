@@ -486,6 +486,10 @@ h1 {
   transition: color 0.3s;
 }
 
+#blogpost .section img {
+  max-width: 600px;
+}
+
 /* Footer */
 #footer {
   position: relative;

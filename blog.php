@@ -26,32 +26,34 @@
     </section>
 
     <section id="all-blogs">
+        <?php
+        include "includes/conn.php";
+        $sql = "SELECT * FROM blog";
+        $result = mysqli_query($conn, $sql);
+        ?>
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-lg-4">
-                    <div class="mx-1 mb-5" data-aos="fadeUp">
-                        <img src="img/ws.jpg" alt="Tejas" class="img-fluid">
-                        <h2>02/12/24</h2>
-                        <h3>Title of the blog</h3>
-                        <a href="">View article ></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-1 mb-5" data-aos="fadeUp">
-                        <img src="img/ws.jpg" alt="Madhur" class="img-fluid">
-                        <h2>02/12/24</h2>
-                        <h3>Title of the blog</h3>
-                        <a href="">View article ></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="mx-1 mb-5" data-aos="fadeUp">
-                        <img src="img/ws.jpg" alt="Ayushi" class="img-fluid">
-                        <h2>02/12/24</h2>
-                        <h3>Title of the blog</h3>
-                        <a href="">View article ></a>
-                    </div>
-                </div>
+                <?php
+                if (mysqli_num_rows($result) > 0) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                ?>
+                        <div class="col-lg-4">
+                            <div class="mx-1 mb-5" data-aos="fadeUp">
+                                <img src="img/blog/<?php echo $row['img'] ?>" alt="Blog_image" class="img-fluid">
+                                <?php
+                                $date = $row['date'];
+                                $date = str_replace('-"', '/', $date);
+                                $date = date("d/m/Y", strtotime($date));
+                                ?>
+                                <h2><?php echo $date ?></h2>
+                                <h3><?php echo $row['title'] ?></h3>
+                                <a href="blogpost.php?post=<?php echo $row['id'] ?>">View article ></a>
+                            </div>
+                        </div>
+                <?php
+                    }
+                }
+                ?>
             </div>
         </div>
     </section>
