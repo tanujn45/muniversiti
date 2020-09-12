@@ -35,9 +35,11 @@
             <li class="nav-item ml-4">
                 <a class="nav-link hvr-underline-from-left" href="muniversify">Muniversify</a>
             </li>
+            <!--
             <li class="nav-item ml-4">
                 <a class="nav-link hvr-underline-from-left" href="blog">blog</a>
             </li>
+            -->
         </ul>
     </div>
 </nav>
